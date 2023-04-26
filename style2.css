@@ -1,0 +1,74 @@
+body{ 
+    background-image:url("star.gif");
+    background-size: 100%;
+    background-repeat: repeat;
+    text-align: center;
+        color:white;
+}
+.form1{align-items: center ;
+    background-color:blue; opacity:90%;
+  width:auto;
+  border: 5px dashed gold;
+  padding: 12px;
+  margin: 50px;
+  border-radius: 29px;
+  height:auto;
+}
+
+input{
+    border-radius: 15px;
+}
+.label1{
+    color:chartreuse;
+}
+.label3{
+    color: cyan;
+}
+.label2{
+    color:orange;
+}
+.label4{
+    color: red;
+}
+
+.address1{color: pink;}
+span{
+    color:magenta;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size:larger;
+}
+legend{
+    font-size:xx-large;
+    color:black;
+    background-color:lawngreen;
+    background-position: center;
+    border-radius: 9px;
+
+}
+fieldset{
+    align-items: center;
+    background-color:black;
+    border-radius: 13px;
+    font-size: xx-large;
+    height:auto;
+}
+input{
+    font-size: xx-large;
+}
+@media (width<=600px) 
+{ fieldset{ font-size:xx-large;
+    width:auto;}
+}
+@media (width>=800px) 
+{
+    fieldset{
+        height:auto;
+    }
+}   
+@media (width>=1080px) 
+{
+    fieldset{
+        height:auto;
+    }
+}   
